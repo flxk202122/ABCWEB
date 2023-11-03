@@ -72,6 +72,7 @@ a {
     margin-left: 3rem;
 }
 
+
 #gnb>li>a {
     display: block;
     font-size: 22px;
@@ -88,15 +89,27 @@ a {
     right: 0;
     top: 100%;
     text-indent: 2rem;
-    line-height: 2;
+    /* line-height: 2; */
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s;
+    transition: 0.5s;
+    background-color: none;
+}
+
+#gnb ul li {
+    padding: 0.5rem;
 }
 
 
 #gnb>li:hover ul {
-    max-height: 300px;
+    max-height: 500px;
     border-color: #333;
     background-color: #fff;
+}
+
+
+#gnb>li:hover {
+    background-color: #000;
+    
+
 }
