@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A형 문제</title>
     <link rel="stylesheet" href="./css/web.css">
     <script src="./js/jquery.js"></script>
     <script src="./js/web.js"></script>
@@ -12,11 +12,11 @@
 
 <body>
     <div class="container">
-        <header id="hd" class="d-flex jcb aic">
-            <h1><a href="#none"><img src="./img/logo.png" alt="로고"></a></h1>
+        <header id="hd" class="d-flex jcb aic h100">
+            <h1><a href="#none"><img src="./img/logo.png" alt="상단로고"></a></h1>
             <ul id="gnb" class="d-flex">
                 <li class="1dli rel">
-                    <a href="#none" class="1da">대메누</a>
+                    <a href="#none" class="1da">대메뉴</a>
                     <ul class="2dul abs">
                         <li class="1dli"><a href="#none">소메뉴</a></li>
                         <li class="1dli"><a href="#none">소메뉴</a></li>
@@ -25,8 +25,13 @@
                     </ul>
                 </li>
                 <li class="1dli rel">
-                    <a href="#none" class="1da">대메누</a>
+                    <a href="#none" class="1da">대메뉴</a>
                     <ul class="2dul abs">
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
                         <li class="1dli"><a href="#none">소메뉴</a></li>
                         <li class="1dli"><a href="#none">소메뉴</a></li>
                         <li class="1dli"><a href="#none">소메뉴</a></li>
@@ -34,28 +39,71 @@
                     </ul>
                 </li>
                 <li class="1dli rel">
-                    <a href="#none" class="1da">대메누</a>
+                    <a href="#none" class="1da">대메뉴</a>
                     <ul class="2dul abs">
-                        <li class="1dli"><a href="">소메뉴</a></li>
-                        <li class="1dli"><a href="">소메뉴</a></li>
-                        <li class="1dli"><a href="">소메뉴</a></li>
-                        <li class="1dli"><a href="">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
+                        <li class="1dli"><a href="#none">소메뉴</a></li>
                     </ul>
                 </li>
                 <li class="1dli rel">
-                    <a href="#none" class="1da">대메누</a>
+                    <a href="#none" class="1da">대메뉴</a>
                     <ul class="2dul abs">
-                        <li class="1dli"><a href="#none">소메뉴</a></li>
-                        <li class="1dli"><a href="#none">소메뉴</a></li>
-                        <li class="1dli"><a href="#none">소메뉴</a></li>
                         <li class="1dli"><a href="#none">소메뉴</a></li>
                     </ul>
                 </li>
             </ul>
         </header>
-        <div id="swiper"></div>
-        <div id="threeBanner"></div>
-        <footer id="fd"></footer>
+        <div id="swiper" class="ofh">
+            <div class="swiper-wrapper d-flex">
+                <div class="swiper-slide"><img src="./img/banner.jpg" alt="베너1"></div>
+                <div class="swiper-slide"><img src="./img/banner2.jpg" alt="베너2"></div>
+                <div class="swiper-slide"><img src="./img/banner3.jpg" alt="베너3"></div>
+            </div>
+        </div>
+        <div id="threeBanner" class="d-flex h100">
+            <div class="tabs">
+                <ul class="abs">
+                    <li>공지사항
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </li>
+                    <li>갤러리
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href=""><img src="" alt="">바로가기</a>
+            </div>
+            <div>
+                <a href=""><img src="" alt="">바로가기</a>
+            </div>
+        </div>
+        <footer id="fd" class="d-flex jcb">
+            <h2><a href=""><img src="./img/logogray.png" alt="하단로고"></a></h2>
+            <div>
+                <ul class="d-flex">
+                    <li>개인정보처리방침</li>
+                    <li>저작권보호정책</li>
+                    <li>이메일무단수집거부</li>
+                    <li>CCTV설치 및 운영지침</li>
+                </ul>
+                <p class="copy">카피문구</p>
+            </div>
+        </footer>
     </div>
 </body>
 
